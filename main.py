@@ -6,6 +6,8 @@ Serves the static dashboard HTML and provides two endpoints:
   - /logs/stream : SSE tail of the Olla log file
 """
 
+from __future__ import annotations
+
 import asyncio
 import os
 import re
