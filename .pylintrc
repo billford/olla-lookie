@@ -1,0 +1,7 @@
+[MESSAGES CONTROL]
+# E0401 import-error: third-party packages (fastapi, httpx) are only present
+# in the deployment venv, not in a bare pylint run.
+disable=import-error
+
+[FORMAT]
+max-line-length=100
